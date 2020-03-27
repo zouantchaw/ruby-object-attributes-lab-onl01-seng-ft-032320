@@ -3,6 +3,15 @@ class Person
     @name = my_name
   end 
   
-  def
+  def job=(my_job)
+    @job = my_job
+  end 
   
+  def name 
+    @name 
+  end 
+  
+  def job 
+    @job
+  end 
 end 
